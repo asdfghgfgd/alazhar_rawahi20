@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.form{
+    width: 250px;
+    height: 494px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%),;
+    position: absolute;
+    top: 65px;
+    left: 600px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form input{
+    width: 240px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: linear-gradient(to top, rgb(255, 255, 255)10%) ;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: linear-gradient(to top, rgba(79, 67, 248, 0.5)50%, rgba(79, 67, 248, 0.5)50%);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+.btnn:hover{
+    background: rgb(255, 255, 255);
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+.liw a{
+    color: #ffffff;
+}
+.liw a:hover{
+    color: #ff7200;
+    transition: 2.5s ease;
+}
